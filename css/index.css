@@ -1,0 +1,24 @@
+.header_left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(0, 56, 6, 0.9);
+}
+.header_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 56, 6, 0.9);
+}
+.name_left {
+    display: flex;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+/* Merge the headers back into one, then create another div
+inside the two to hold the name and nav */
